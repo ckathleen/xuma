@@ -27,7 +27,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Xuma Coin</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <image src='img/logo.png' width='50px' height='50px'></image>
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,27 +45,27 @@
               <a class="nav-link js-scroll-trigger" href="#roadmap">Roadmap</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#wallets">Wallets</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="http://explorer.xumacoin.org/">Explorer</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pools </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="http://pool.xumacoin.org/">xumacoin.org</a>
-                <a class="dropdown-item" href="https://hash4.life/">hash4.life</a>
-                <a class="dropdown-item" href="http://angrypool.com/">angrypool</a>
-                <a class="dropdown-item" href="http://evil.ru/">evil.ru</a>
-                <a class="dropdown-item" href="http://miningpool.shop/">miningpool.shop</a>
-                <a class="dropdown-item" href="https://pool.coin-miners.info/">coin-miners.info</a>
-              </div>
+              <a class="nav-link js-scroll-trigger" href="#download">Download</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#specs">Specs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#instructions">Instructions</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pools </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="http://pool.xumacoin.org/">XUMCOIN.ORG</a>
+                <a class="dropdown-item" href="https://hash4.life/">HASH4.LIFE</a>
+                <a class="dropdown-item" href="http://angrypool.com/">ANGRYPOOL</a>
+                <a class="dropdown-item" href="http://evil.ru/">EVIL.RU</a>
+                <a class="dropdown-item" href="http://miningpool.shop/">MININGPOOL.SHOP</a>
+                <a class="dropdown-item" href="https://pool.coin-miners.info/">COIN-MINERS.INFO</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="http://explorer.xumacoin.org/">Explorer</a>
             </li>
           </ul>
         </div>
@@ -75,32 +77,31 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1>Xuma Coin</h1>
+            <h1>Xuma</h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Decentralized database for the blockchain era</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Download</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#download">Download</a>
           </div>
         </div>
       </div>
     </header>
 
     <!-- About section -->
-    <section class="xuma-section p-3 p-lg-5 d-flex d-column" id="about">
+    <section class="xuma-section px-3 py-5 p-lg-5 d-flex d-column" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="section-heading text-black">ABOUT</h2>
-            <br>
-            <p class="mb-4">Xuma is a decentralized database built with blockchain technologies. Xuma’s decentralized network connects data consumers and resource providers. Consumers can access a global decentralized database system with all the benefits of blockchain technology. Resource providers will be compensated for the pooled resources.</p>
+            <h2 class="section-heading pb-4">ABOUT</h2>
+            <div>Xuma is a decentralized database built with blockchain technologies. Xuma’s decentralized network connects data consumers and resource providers. Consumers can access a global decentralized database system with all the benefits of blockchain technology. Resource providers will be compensated for the pooled resources.</div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Features section -->
-    <section class="xuma-section p-3 p-lg-5 d-flex d-column" id="features">
+    <section class="xuma-section px-3 py-5 p-lg-5 d-flex d-column" id="features">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -137,7 +138,7 @@
     </section>
 
     <!-- Roadmap section -->
-    <section class="xuma-section p-3 p-lg-5 d-flex d-column" id="roadmap">
+    <section class="xuma-section px-3 py-5 p-lg-5 d-flex d-column" id="roadmap">
        <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -248,13 +249,13 @@
       </div>
     </section>
 
-    <!-- Wallets section -->
-    <section class="xuma-section p-3 p-lg-5 d-flex d-column" id="wallets">
+    <!-- Download section -->
+    <section class="xuma-section px-3 py-5 p-lg-5 d-flex d-column" id="download">
        <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="section-heading text-black">Wallets</h2>
-            <div class="subheading mb-3">v.1.0.3</div>
+          <div class="col-lg-8 mx-auto pb-4">
+            <h2 class="section-heading">DOWNLOAD</h2>
+            <div class="subheading">v.1.0.3</div>
           </div>
         </div>
         <div class="row mb-1">
@@ -321,62 +322,160 @@
      </section>
 
     <!-- Specs section -->
-    <section class="xuma-section p-3 p-lg-5 d-flex d-column" id="sepcs">
+    <section class="xuma-section px-3 py-5 p-lg-5 d-flex d-column" id="specs">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="section-heading pb-5">Specs</h2>
+          <div class="col-lg-8 mx-auto pb-4">
+            <h2 class="section-heading">SPECS</h2>
           </div>
+        </div>
+        <div class="row">
+          <div class='col-md-6'>
+            <ul class="specs-list mb-0">
+              <li>Proof of Work Algorithm: Quark</li>
+              <li>Premine: (#1 Block) 120,001 XUMA (0.2% of PoW) for 12 Masternodes to stabilize the network</li>
+              <li>Proof of Work Blocks: 2 - 475,200</li>
+              <li>Proof of Stake Blocks: Starting from 475,201</li>
+              <li>Block Time: 60 Seconds</li>
+              <li>Difficulty Retarget: 5 Blocks</li>
+            </ul>
+          </div>
+          <div class='col-md-6'>
+            <ul class="specs-list">
+              <li>Proof of Work Max Coin Supply: 56,284,120</li>
+              <li>Proof of Work ending: Approximately 334 days</li>
+              <li>Masternode collateral: 10,000 XUMA</li>
+              <li>Maturity: 120 Confirmations</li>
+              <li>Port: 19777</li>
+              <li>RPC Port: 19643</li>
+            </ul>
+          </div>
+        </div>
+        <div class="specs-table">
+          <table class="table my-5 table-responsive-sm">
+            <thead>
+              <tr>
+                <th>POW Rewards</th><th>Reward Amount</th><th>Masternodes</th><th>Miners</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Block 2 - 86400</td><td>200 XMX</td><td>20%</td><td>80%</td>
+            </tr>
+            <tr>
+              <td>Block 86401 - 151200</td><td>150 XMX</td><td>25%</td><td>75%</td>
+            </tr>
+            <tr>
+              <td>Block 151201 - 302400</td><td>125 XMX</td><td>30%</td><td>70%</td>
+            </tr>
+            <tr>
+              <td>Block 302401 - 345600</td><td>100 XMX</td><td>35%</td><td>65%</td>
+            </tr>
+            <tr>
+              <td>Block 345601 - 388800</td><td>75 XMX</td><td>40%</td><td>60%</td>
+            </tr>
+            <tr><td>Block 388801 - 475200</td><td>50 XMX</td><td>40%</td><td>60%</td>
+            </tr>
+          </table>
+          <table class="table my-5 table-responsive-sm">
+            <thead>
+              <tr><th>POS Rewards</th><th>Reward Amount</th></tr>
+            </thead>
+            <tr><td>Block 475201 - 518400</td><td>50 XMX</td></tr>
+            <tr><td>Block 518401 - 561600</td><td>25 XMX</td></tr>
+            <tr><td>Block 561601 - 604800</td><td>10 XMX</td></tr>
+            <tr><td>Block 604801 - infinite</td><td>5 XMX</td></tr>
+          </table>
         </div>
       </div>
     </section>
 
      <!-- Instructions section -->
-    <section class="xuma-section p-3 p-lg-5 d-flex d-column" id="instructions">
+    <section class="xuma-section px-3 py-5 p-lg-5 d-flex d-column" id="instructions">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="section-heading pb-5">Instructions</h2>
+          <div class="col-lg-8 mx-auto pb-4">
+            <h2 class="section-heading">INSTRUCTIONS</h2>
           </div>
+        </div>
+        <div>
+          <h5 class='my-3'>Setting up swap space on a Ubuntu VPS</h5>
+          <kbd>$ sudo fallocate -l 4G /swap</kbd><br>
+          <kbd>$ sudo chmod 600 /swap</kbd><br>
+          <kbd> $ sudo mkswap /swap</kbd><br>
+          <kbd>$ sudo swapon /swap </kbd><br>
+          <kbd>$ echo '/swap   none    swap    sw    0   0' | sudo tee -a /etc/fstab </kbd> <br>
+
+          <h5 class='my-3'>Compiling and running xumad on Ubuntu:</h5>
+          <kbd>$ add-apt-repository ppa:bitcoin/bitcoin -y </kbd><br>
+          <kbd>$ apt-get update </kbd><br>
+          <kbd>$ apt-get upgrade -y </kbd><br>
+          <kbd>$ apt-get autoremove -y </kbd> <br>
+          <kbd>$ apt-get install git build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev -y </kbd><br>
+          <kbd>$ mkdir ~/source && cd ~/source && git clone https://github.com/xumacoin/xuma-core.git</kbd><br>
+          <kbd>$ cd ~/source/xuma-core && ./autogen.sh && ./configure </kbd><br>
+          <kbd>$ make all install </kbd><br>
+          <kbd>$ xumad </kbd><br>
+          <kbd>$ xuma-cli getinfo </kbd><br>
+          <kbd>$ xuma-cli getbalance </kbd><br>
+          <kbd>$ xuma-cli getaccountaddress "" </kbd><br>
+
+          <h5 class='my-3'>Sample masternode xuma.conf file:<h5>
+          <div class='masternode-file'>
+          masternode=1<br>
+          masternodeprivkey=&lt;xuma-cli masternode genkey&gt;<br>
+          rpcuser=xumarpc<br>
+          rpcpassword=create_a_random_password_here<br>
+          staking=0<br>
+          daemon=1<br>
+          server=1<br>
+          listen=1<br>
+          txindex=1<br>
+          </div>
+
+          <h5 class='my-3'>Setting up a hot masternode:</h5>
+          Get the default wallet address that has a 0 balance: <kbd>$ xuma-cli getaccountaddress ""</kbd><br>
+          Or create a new wallet address that has a 0 balance: <kbd>$ xuma-cli getaccountaddress "example"</kbd><br>
+          Send 10,000 XMX to that address from your primary wallet: <kbd>$ xuma-cli sendtoaddress XLd5zb7KJewkBNH7xb94r9WHUVrxKiXLcS 10000</kbd><br>
+          Allow 15 confirmations and start the masternode: <kbd>$ xuma-cli masternode start</kbd>
         </div>
       </div>
     </section>
 
     <!-- Community section -->
-    <section class="xuma-section p-3 p-lg-5 d-flex d-column" id="community">
+    <section class="xuma-section px-3 py-5 p-lg-5 d-flex d-column" id="community">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="section-heading pb-5 text-center">Community</h2>
+          <div class="col-lg-8 mx-auto pb-4">
+            <h2 class="section-heading text-center">COMMUNITY</h2>
           </div>
         </div>
         <div class='row d-flex justify-content-center'>
           <div class='col-xs-12 col-md-10 d-flex justify-content-between'>
-            <a href="https://discordapp.com/invite/DHYsG6j">
+            <a href="https://discordapp.com/invite/DHYsG6j" target="_blank" >
               <span class="fa-stack fa-2x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-discord fa-stack-1x fa-inverse"></i>
               </span>
             </a>
-            <a href="https://twitter.com/XumaBlockchain">
+            <a href="https://twitter.com/XumaBlockchain" target="_blank" >
               <span class="fa-stack fa-2x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
               </span>
             </a>
-            <a href="https://github.com/xumacoin/xuma-core/releases/latest">
+            <a href="https://github.com/xumacoin/xuma-core/releases/latest" target="_blank" >
               <span class="fa-stack fa-2x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-download fa-stack-1x fa-inverse"></i>
               </span>
             </a>
-            <a href="https://bitcointalk.org/index.php?topic=2976421">
+            <a href="https://bitcointalk.org/index.php?topic=2976421" target="_blank" >
               <span class="fa-stack fa-2x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-bitcoin fa-stack-1x fa-inverse"></i>
               </span>
             </a>
-            <a href="https://github.com/xumacoin/xuma-core">
+            <a href="https://github.com/xumacoin/xuma-core" target="_blank" >
               <span class="fa-stack fa-2x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -387,100 +486,15 @@
      </div>
     </section>
 
-
-    <section class="xuma-section p-3 p-lg-5 d-flex flex-column" id="specs">
-      <div class="my-auto">
-        <h2 class="mb-5">Specs</h2>
-        <ul class="fa-ul mb-0">
-          <li>Proof of Work Algorithm: Quark</li>
-          <li>Premine: (#1 Block) 120,001 XUMA (0.2% of PoW) For 12 Masternodes to stabilize the network</li>
-          <li>Proof of Work Blocks: 2 - 475,200</li>
-          <li>Proof of Stake Blocks: Starting from 475,201</li>
-          <li>Block Time: 60 Seconds</li>
-          <li>Difficulty Retarget: 5 Blocks</li>
-          <li>Proof of Work Max Coin Supply: 56,284,120</li>
-          <li>Proof of Work ending: Approximately 334 days</li>
-          <li>Masternode collateral: 10,000 XUMA</li>
-          <li>Maturity: 120 Confirmations</li>
-          <li>Port: 19777</li>
-          <li>RPC Port: 19643</li>
-          <br>
-          <li>
-            <table width="100%">
-              <tr><th>POW Rewards</th><th>Reward Amount</th><th>Masternodes</th><th>Miners</th></tr>
-              <tr><td>Block 2 - 86400</td><td>200 XMX</td><td>Masternodes 20%</td><td>Miners 80%</td></tr>
-              <tr><td>Block 86401 - 151200</td><td>150 XMX</td><td>Masternodes 25%</td><td>Miners 75%</td></tr>
-              <tr><td>Block 151201 - 302400</td><td>125 XMX</td><td>Masternodes 30%</td><td>Miners 70%</td></tr>
-              <tr><td>Block 302401 - 345600</td><td>100 XMX</td><td>Masternodes 35%</td><td>Miners 65%</td></tr>
-              <tr><td>Block 345601 - 388800</td><td>75 XMX</td><td>Masternodes 40%</td><td>Miners 60%</td></tr>
-              <tr><td>Block 388801 - 475200</td><td>50 XMX</td><td>Masternodes 40%</td><td>Miners 60%</td></tr>
-            </table>
-          </li>
-          <br>
-          <li>
-            <table width="50%">
-              <tr><th>POS Rewards</th><th>Reward Amount</th></tr>
-              <tr><td>Block 475201 - 518400</td><td>50 XMX</td></tr>
-              <tr><td>Block 518401 - 561600</td><td>25 XMX</td></tr>
-              <tr><td>Block 561601 - 604800</td><td>10 XMX</td></tr>
-              <tr><td>Block 604801 - infinite</td><td>5 XMX</td></tr>
-            </table>
-          </li>
-        </ul>
+    <div class="copyright py-4 text-center text-white bg-dark">
+      <div class="container">
+        <small>Copyright © XumaCoin 2018</small>
       </div>
-    </section>
+    </div>
 
-    <section class="xuma-section p-3 p-lg-5 d-flex flex-column" id="docs">
-      <div class="my-auto">
-        <h2 class="mb-5">Instructions</h2>
-
-        <b>Setting up swap space on a Ubuntu VPS</b><br>
-        <br>
-        sudo fallocate -l 4G /swap<br>
-        sudo chmod 600 /swap<br>
-        sudo mkswap /swap<br>
-        sudo swapon /swap<br>
-        echo '/swap   none    swap    sw    0   0' | sudo tee -a /etc/fstab<br>
-        <br>
-
-        <b>Compiling and running xumad on Ubuntu:</b><br>
-        add-apt-repository ppa:bitcoin/bitcoin -y<br>
-        apt-get update<br>
-        apt-get upgrade -y<br>
-        apt-get autoremove -y<br>
-        apt-get install git build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev -y<br>
-        mkdir ~/source && cd ~/source && git clone https://github.com/xumacoin/xuma-core.git<br>
-        cd ~/source/xuma-core && ./autogen.sh && ./configure<br>
-        make all install<br>
-        xumad<br>
-        xuma-cli getinfo<br>
-        xuma-cli getbalance<br>
-        xuma-cli getaccountaddress ""<br>
-        <br>
-
-        <b>A sample masternode xuma.conf file:</b><br>
-        masternode=1<br>
-        masternodeprivkey=&lt;xuma-cli masternode genkey&gt;<br>
-        rpcuser=xumarpc<br>
-        rpcpassword=create_a_random_password_here<br>
-        staking=0<br>
-        daemon=1<br>
-        server=1<br>
-        listen=1<br>
-        txindex=1<br>
-        <br>
-
-        <b>Setting up a hot masternode:</b><br>
-        Get the default wallet address that has a 0 balance: <span class="text-primary">xuma-cli getaccountaddress ""</span><br>
-        Or create a new wallet address that has a 0 balance: <span class="text-primary">xuma-cli getaccountaddress "example"</span><br>
-        Send exactly 10,000 XMX to that address from your primary wallet: <span class="text-primary">xuma-cli sendtoaddress XLd5zb7KJewkBNH7xb94r9WHUVrxKiXLcS 10000</span><br>
-        Allow 15 confirmations and start the masternode: <span class="text-primary">xuma-cli masternode start</span><br>
-      </div>
-    </section>
-
-    <section id="footer">
+    <footer id="footer">
       <div></div>
-    </section>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
