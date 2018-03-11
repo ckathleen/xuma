@@ -52,6 +52,10 @@ h2 {
    background: #eee;
 }
 
+.uncomplete-step {
+  background-color:white !important;
+}
+
 kbd { 
   font-size: .8rem;
   display: inline-block;
