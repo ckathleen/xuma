@@ -35,9 +35,17 @@ h2 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+.feature-card {
+  border: 0px;
+  max-width: 300px;
+  margin: 10px 0px;
+
+}
 .card {
   border-radius: 10px;
   align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
 }
 .dropdown-menu {
   border-radius: 0;
