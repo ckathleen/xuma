@@ -205,6 +205,10 @@ kbd {
 .timeline .timeline-body > p {
   margin-bottom: 0;
 }
+
+#community-links {
+  overflow: scroll;
+}
 /*
 @media (min-width: 768px) {
   .timeline:before {
